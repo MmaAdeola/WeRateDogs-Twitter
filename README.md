@@ -5,7 +5,7 @@ It is the analysis of the tweet archive of the WeRateDogs (@dog_rates) acount. W
 This project required data to be gathered using three different approaches and from three different sources. First dataset was downloaded manually and read into Jupyter notebook usind pandas read_csv. The second was downloaded programmatically from a url and the thrird dataset was obtained from the twitter API using Tweepy. 
 The three datasets were assessed and cleaned individually before there were merged into a master dataset. This is to ensure data integrity.
 Insights and visualizations were generated from the cleaned dataset.
-Other requirements were to identify at least 8 data quality and 2 tidiness issues
+Other requirements were to identify at least 8 data quality and 2 tidiness issues, outline a minimum of three insights and one visualization.
 
 Providing more context, below are the meanings of some columns that might not be so clear.
 p1 is the algorithm's #1 prediction for the image in the tweet → golden retriever
@@ -16,3 +16,9 @@ p2_conf is how confident the algorithm is in its #2 prediction → 1%
 p2_dog is whether or not the #2 prediction is a breed of dog → TRUE
 p3 is the algorithm's third prediction
 etc.
+Files related to this project are as follows:
+wrangle_act.ipynb - Jupyter note of the analysis.
+wrangle_report - report outlining the data wrangling activities undertaken before exploratory data analysis.
+act_report - report showing insights and visuals created.
+image_predictions.tsv, twitter_archive_enhanced.csv, and tweet_json.txt - original datasets.
+twitter_archive_master.csv - cleaned and merged dataset.

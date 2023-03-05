@@ -8,8 +8,8 @@ Insights and visualizations were generated from the cleaned dataset.
 Other requirements were to identify at least 8 data quality and 2 tidiness issues, outline a minimum of three insights and one visualization.
 
 Providing more context, below are the meanings of some columns that might not be so clear.
-p1 is the algorithm's #1 prediction for the image in the tweet → golden retriever
-p1_conf is how confident the algorithm is in its #1 prediction → 95%
+-p1 is the algorithm's #1 prediction for the image in the tweet → golden retriever
+-p1_conf is how confident the algorithm is in its #1 prediction → 95%
 p1_dog is whether or not the #1 prediction is a breed of dog → TRUE
 p2 is the algorithm's second most likely prediction → Labrador retriever
 p2_conf is how confident the algorithm is in its #2 prediction → 1%
